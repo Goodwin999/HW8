@@ -16,10 +16,31 @@ public class Main {
         System.out.println(Arrays.toString(year));
 
 
+        System.out.println("Task №3");
+        for (int index = time.length - 1; index >= 0; index--) {
+            System.out.print(time[index]);
+            if (index > 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int index = month.length - 1; index >= 0; index--) {
+            System.out.print(month[index]);
+            if (index > 0) {
+                System.out.print(", ");
+            }
+        }
+
+        System.out.println();
+        for (int index = year.length - 1; index >=0; index--) {
+            System.out.print(year[index]);
+            if (index > 0) {
+                System.out.print(", ");
+            }
+        }
+
 
 
     }
-
 }
-
 
