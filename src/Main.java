@@ -32,15 +32,23 @@ public class Main {
         }
 
         System.out.println();
-        for (int index = year.length - 1; index >=0; index--) {
+        for (int index = year.length - 1; index >= 0; index--) {
             System.out.print(year[index]);
             if (index > 0) {
                 System.out.print(", ");
             }
         }
-
-
+        System.out.println();
+        System.out.println("Task №4");
+        int[] time1 = {1, 2, 3};
+        for (int i = 0; i < time1.length; i++) {
+            if (time1[i] % 2 != 0) {
+                time1[i] = time[i] +1;
+            }
+            System.out.print(time1[i] + ", ");
+        }
 
     }
 }
+
 
